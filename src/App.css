@@ -1,0 +1,120 @@
+body{
+  background-color: #e9e9e9;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+html,
+body,
+h1,p,h2{
+  margin: 0;
+  padding: 0;
+}
+
+/* ******* Header ********** */
+
+.header{
+  background-color: #0078AA;
+  color: #ffb703;
+  padding: 1em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  box-shadow: 5px 5px 10px #135886;
+}
+
+.header h1{
+  text-align: center;
+  width: 90%;
+  font-size: 3rem;
+  text-shadow: 5px 5px 10px #135886;
+}
+
+.bitcoin {
+  width: 8%;
+  height: 8%;
+}
+
+/* ******* Points ********** */
+
+.points{
+  background-color: #219bec;
+  color: black;
+  font-size: 2rem;
+  float: right;
+  text-align: center;
+  padding: .5em;
+  font-weight: 700;
+  border: 5px solid #005477;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.points-span{
+  color: #ffb703;
+  display: block;
+}
+
+/* ******* Guess Panel ********** */
+
+.guess-panel{
+  background-color:#d8e3ef ;
+  width: 50%;
+  margin: 0 auto;
+  padding: 2em;
+  text-align: center;
+  margin-top: 1em;
+  border-top: 10px solid #0078AA;
+  box-shadow: 3px 3px 10px #adadad;
+}
+
+.guess-panel button {
+  border: none;
+  padding: 1em 2em;
+  margin-right: 1em;
+  border-radius:5px ;
+  font-size: 1.25rem;
+  margin-top: 1em;
+  font-weight: 400;
+  letter-spacing: 3px;
+  color:white ;
+  cursor: pointer;
+}
+
+button:disabled,
+button[disabled] {
+  background-color: #cccccc !important;
+  color: #343333;
+  font-weight: 700;
+}
+.guess-panel-choose{
+  font-size: 1.5rem;
+}
+
+/*  */
+
+.current-price{
+  text-align: center;
+  margin-top: 2em;
+
+}
+
+/* *******Results********** */
+
+.results{
+  background-color: #F7931A;
+  font-size: 20px;
+  padding: 1em;
+  font-weight: 400;
+  width: 40%;
+  margin: 0 auto;
+  margin-top:3em;
+  font-size: 2rem;
+  border-left: 10px solid #F7931A;
+  color: white;
+}
+
+.results-loader{
+  margin: 0 auto;
+  width: max-content;
+}
